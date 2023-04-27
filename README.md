@@ -52,13 +52,15 @@ The main objective of this project is to develop a predictive model for dengue o
 # Exploratory Data Analaysis
 The datasets were merged after the datetime variables were aligned and the dataset was cleaned to exclude special characters. Exploratory data analysis included looking at which factors correlated most highly with dengue cases, as well as tracking how dengue cases have changed alongside NEA's interventions and public campaigns. Mean temperature and Google searches for dengue were found to correlate with higher dengue caseloads:
 
-![./images/dengue_case_by_year.jpg]
+<img src="./images/dengue_case_by_year.jpg"></img>
 
-![./images/temp_by_year.jpg]
+<img src="./images/temp_by_year.jpg"></img>
 
-![./images/google_dengue.jpg]
+<img src="./images/google_dengue.jpg"></img>
 
 These factors can be used as exogenous varibles in the time series model to predict dengue cases in 2019. 
+
+
 # Predictive Modelling
 For this project, we used the Time Series modeling with the weather/climate and Google trends as exogenous features. 
 In order to know which Time Series model deployment, we need to do a Time Series Diagnostics to check whether Time Series Dengue Cases is:
