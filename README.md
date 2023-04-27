@@ -86,7 +86,7 @@ From the Dickey-Fuller test of the Original Time Series Dengue Data, we can see 
 Therefore, based on these results, we cannot reject the null hypothesis that the time series is non-stationary. In other words, there is not enough evidence to suggest that the time series is stationary.
 
 #### 1st differenced Time SEries Dengue Data
-![]https://github.com/lishing/ga_project4_dsif9/blob/main/images/diff_ADFuller.png
+![](https://github.com/lishing/ga_project4_dsif9/blob/main/images/diff_ADFuller.png)
 <img src="../images/diff_ADFuller.png"></img>
 
 From the Dickey-Fuller test, we can see that:
