@@ -150,7 +150,9 @@ We estimate that indirect costs is 4 times of direct costs.
 * direct costs involves hospitalization costs and treatment costs
 * indirect costs involves productivity lost. There are two main ways of measuring productivity loss, and we will be using the friction cost method, which is the actual value of production loss due to illness. This production loss includes care-giving to children or elderly
 
-We will assume that government intervention will reduce 40% of the forecasted dengue cases. We found that with this, it leads to a 28% reduction of cost, and would recommend the government to continue the education efforts and its vector reduction program.
+We will assume that government intervention will reduce 40% of the forecasted dengue cases. The costs of the government intervention programs were found on [Straits Times](https://www.straitstimes.com/singapore/up-to-10m-contract-for-campaign-against-dengue-0) and [NEA's Annual Corporate Report](https://www.nea.gov.sg/docs/default-source/isr/nea-isr2021-2022-fs.pdf)
+
+We found that with this, it leads to a 28% reduction of cost, and would recommend the government to continue the education efforts and its vector reduction program.
 ![](./images/cba.png)
 
 # Conclusion & Recommendations
