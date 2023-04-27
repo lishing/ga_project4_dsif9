@@ -77,7 +77,7 @@ Hence, we can deduced that the Dengue cases are seasonal in nature and the data 
 
 #### Original Time Series Dengue Data
 
-<img src="./images/original_ADFuller.png"></img>
+![](./images/original_ADFuller.png)
 
 From the Dickey-Fuller test of the Original Time Series Dengue Data, we can see that:
 - The test statistic is a negative value and is more negative than the critical values at the 5% and 10% levels, but not at the 1% level.
