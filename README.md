@@ -87,7 +87,7 @@ Therefore, based on these results, we cannot reject the null hypothesis that the
 
 #### 1st differenced Time SEries Dengue Data
 ![](https://github.com/lishing/ga_project4_dsif9/blob/main/images/diff_ADFuller.png)
-<img src="../images/diff_ADFuller.png"></img>
+![](./images/diff_ADFuller.png)
 
 From the Dickey-Fuller test, we can see that:
 
@@ -95,7 +95,7 @@ From the Dickey-Fuller test, we can see that:
 - The p-value is very small, which suggests strong evidence against the null hypothesis of non-stationarity.
 - Therefore, based on these results, we can reject the null hypothesis that the time series is non-stationary. In other words, there is enough evidence to suggest that the time series is stationary.
 
-<img src="../images/plots.png"></img>
+![](./images/plots.png)
 
 The ACF plot shows a gradual decay to zero and the PACF plot has a sharp drop-off after a certain lag, this suggests that the Time Series is stationary. This pattern indicates that the autocorrelations are small and decay quickly, and there are no significant autocorrelations beyond a certain lag.
 
@@ -112,7 +112,7 @@ We set the non-seasonal order to be (0,1,1) and we try out with SARIMAX models w
 
 The AIC, Log-Likelihood and RMSE for the different SARIMAX models as shown below.
 
-<img src="../images/table.png"></img>
+![](./images/table.png)
 
 We chose SARIMAX model of seasonal order (0,0,0) for 
 - lowest AIC.
@@ -121,11 +121,11 @@ We chose SARIMAX model of seasonal order (0,0,0) for
 
 The predictive plot is as shown below.
 
-<img src="../images/pred_plot.png"></img>
+![](./images/pred_plot.png)
 
 ## Forecast Study
 
-<img src="../images/forecast.png"></img>
+![](./images/forecast.png)
 
 The Forecast plot for the SARIMAX model with seasonal order (0,0,0,26) aligns with the 'unseen' actual Dengue values 2019. The Forecast plot is able to forecast peaks of Dengue cases within Jun-Jul periods. Hence, we will use SARIMAX model with non-seasonal order (0,1,1) and seasonal order (0,0,0).
 
