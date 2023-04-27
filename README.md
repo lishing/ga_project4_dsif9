@@ -145,6 +145,7 @@ The Forecast plot for the SARIMAX model with seasonal order (0,0,0,26) aligns wi
 # Cost-Benefit Analysis
 In this project, we will consider both direct and indirect costs. The aggregate of this cost will be used to compare with the cost reduced with government intervention. 
 
+![](./images/direct-indirect-costs.png)
 We estimate that indirect costs is 4 times of direct costs.
 * direct costs involves hospitalization costs and treatment costs
 * indirect costs involves productivity lost. There are two main ways of measuring productivity loss, and we will be using the friction cost method, which is the actual value of production loss due to illness. This production loss includes care-giving to children or elderly
