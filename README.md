@@ -50,7 +50,7 @@ The main objective of this project is to develop a predictive model for dengue o
 
 
 # Exploratory Data Analysis
-The datasets were merged after the datetime variables were aligned and the dataset was cleaned to exclude special characters. Exploratory data analysis included looking at which factors correlated most highly with dengue cases, as well as tracking how dengue cases have changed alongside NEA's interventions and public campaigns. Mean temperature and Google searches for dengue were found to correlate with higher dengue caseloads:
+The datasets were merged after the datetime variables were aligned and the dataset was cleaned to exclude special characters. Exploratory data analysis included looking at which factors seemed to correlate most highly with dengue cases, as well as tracking how dengue cases have changed alongside NEA's interventions and public campaigns. Mean temperature and Google searches for 'dengue' were found to trend similarly against higher dengue caseloads:
 
 <img src="./images/dengue_case_by_year.jpg"></img>
 
@@ -58,9 +58,9 @@ The datasets were merged after the datetime variables were aligned and the datas
 
 <img src="./images/google_dengue.jpg"></img>
 
-These factors can be used as exogenous varibles in the time series model to predict dengue cases in 2019. 
+These factors can be used as exogenous variables in the time series model to predict dengue cases in 2019. 
 
-Desk research on NEA's historical interventions were also mapped against dengue cases to see how the agency timed their public campaigns vis-a-vis dengue trends. This will inform our recommendations on when to best apply our proposed interventions. 
+Desk research on NEA's historical interventions were also mapped against dengue cases to see how the agency timed their public campaigns vis-a-vis dengue trends - were they timed a few months before, right before or during peak dengue seasons? This will inform our recommendations on when to best apply our proposed interventions. 
 
 <img src="./images/campaigns.png"></img>
 
