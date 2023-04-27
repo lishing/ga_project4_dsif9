@@ -143,6 +143,14 @@ The predictive plot is as shown below.
 The Forecast plot for the SARIMAX model with seasonal order (0,0,0,26) aligns with the 'unseen' actual Dengue values 2019. The Forecast plot is able to forecast peaks of Dengue cases within Jun-Jul periods. Hence, we will use SARIMAX model with non-seasonal order (0,1,1) and seasonal order (0,0,0).
 
 # Cost-Benefit Analysis
+In this project, we will consider both direct and indirect costs. The aggregate of this cost will be used to compare with the cost reduced with government intervention. 
+
+We estimate that indirect costs is 4 times of direct costs.
+* direct costs involves hospitalization costs and treatment costs
+* indirect costs involves productivity lost. There are two main ways of measuring productivity loss, and we will be using the friction cost method, which is the actual value of production loss due to illness. This production loss includes care-giving to children or elderly
+
+We will assume that government intervention will reduce 40% of the forecasted dengue cases. We found that with this, it leads to a 28% reduction of cost, and would recommend the government to continue the education efforts and its vector reduction program.
+![](./images/cba.png)
 
 # Conclusion & Recommendations
 - June-July has been identified to be the months with the highest number of dengue cases.
