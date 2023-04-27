@@ -61,7 +61,7 @@ In order to know which Time Series model deployment, we need to do a Time Series
 
 ### Seasonal Decomposition 
 
-<img src="./images/seasonal_decompose.png"></img>
+![/images/seasonal_decompose.png]
 
 #### <span style="color:red">Seasonal Decompose Analysis</span>
 
