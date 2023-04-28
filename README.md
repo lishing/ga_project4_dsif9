@@ -49,8 +49,8 @@ The main objective of this project is to develop a predictive model for dengue o
 |Mosquito: (Singapore)|int64|google_trends.csv|the number of searches related to "mosquito" in Singapore|
 
 
-# Exploratory Data Analaysis
-The datasets were merged after the datetime variables were aligned and the dataset was cleaned to exclude special characters. Exploratory data analysis included looking at which factors correlated most highly with dengue cases, as well as tracking how dengue cases have changed alongside NEA's interventions and public campaigns. Mean temperature and Google searches for dengue were found to correlate with higher dengue caseloads:
+# Exploratory Data Analysis
+The datasets were merged after the datetime variables were aligned and cleaned to exclude special characters. Exploratory data analysis included looking at which factors correlated most highly with dengue cases, as well as tracking how dengue cases have changed alongside NEA's interventions and public campaigns. Mean temperature and Google searches for dengue were found to correlate with higher dengue caseloads:
 
 <img src="./images/dengue_case_by_year.jpg"></img>
 
@@ -58,9 +58,9 @@ The datasets were merged after the datetime variables were aligned and the datas
 
 <img src="./images/google_dengue.jpg"></img>
 
-These factors can be used as exogenous varibles in the time series model to predict dengue cases in 2019. 
+These factors can be used as exogenous variables in the time series model to predict dengue cases in 2019. 
 
-Desk research on NEA's historical interventions were also mapped against dengue cases to see how the agency timed their public campaigns vis-a-vis dengue trends. This will inform our recommendations on when to best apply our proposed interventions. 
+Desk research on NEA's historical interventions were also mapped against dengue cases to see how the agency timed their public campaigns vis-a-vis dengue caseloads. This will inform our recommendations on when to best apply our proposed interventions. 
 
 <img src="./images/campaigns.png"></img>
 
@@ -150,7 +150,9 @@ We estimate that indirect costs is 4 times of direct costs.
 * direct costs involves hospitalization costs and treatment costs
 * indirect costs involves productivity lost. There are two main ways of measuring productivity loss, and we will be using the friction cost method, which is the actual value of production loss due to illness. This production loss includes care-giving to children or elderly
 
-We will assume that government intervention will reduce 40% of the forecasted dengue cases. We found that with this, it leads to a 28% reduction of cost, and would recommend the government to continue the education efforts and its vector reduction program.
+We will assume that government intervention will reduce 40% of the forecasted dengue cases. The costs of the government intervention programs were found on [Straits Times](https://www.straitstimes.com/singapore/up-to-10m-contract-for-campaign-against-dengue-0) and [NEA's Annual Corporate Report](https://www.nea.gov.sg/docs/default-source/isr/nea-isr2021-2022-fs.pdf)
+
+We found that with this, it leads to a 28% reduction of cost, and would recommend the government to continue the education efforts and its vector reduction program.
 ![](./images/cba.png)
 
 # Conclusion & Recommendations
