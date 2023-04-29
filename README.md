@@ -152,7 +152,7 @@ We estimate that indirect costs is 4 times of direct costs.
 
 We will assume that government intervention will reduce 40% of the forecasted dengue cases. The costs of the government intervention programs were found on [Straits Times](https://www.straitstimes.com/singapore/up-to-10m-contract-for-campaign-against-dengue-0) and [NEA's Annual Corporate Report](https://www.nea.gov.sg/docs/default-source/isr/nea-isr2021-2022-fs.pdf)
 
-We found that with this, it leads to a 28% reduction of cost, and would recommend the government to continue the education efforts and its vector reduction program.
+We found that it leads to a 28% reduction of cost, and would recommend the government to continue the education efforts and its vector reduction program.
 ![](./images/cba.png)
 
 # Conclusion & Recommendations
