@@ -3,7 +3,7 @@ The aim of this project is to develop a precise predictive model for dengue outb
 
 To mitigate the spread of dengue fever, MOH has engaged NEA's data science team to develop a predictive model to take proactive measures to prevent and control dengue outbreaks, reducing healthcare costs and citizens' financial burden.
 
-# Background:
+# Background
 Dengue fever is a mosquito-borne infectious disease that causes flu-like symptoms, such as high fever, severe headaches, joint and muscle pain, and rash. The dengue virus is transmitted to humans through the bite of an infected Aedes mosquito.
 
 Singapore saw a significant surge in dengue cases in 2022, with over 30,000 cases reported, which is six times higher than in 2021. The increase in dengue cases has resulted in high healthcare costs for hospitals and increased financial burden on citizens.
