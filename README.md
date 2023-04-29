@@ -34,19 +34,19 @@ The main objective of this project is to develop a predictive model for dengue o
 |eweek|int64|weekly-number-of-dengue-and-dengue-haemorrhagic-fever-cases.csv|the week of the data point|
 |type_dengue|object|weekly-number-of-dengue-and-dengue-haemorrhagic-fever-cases.csv|the type of dengue infection|
 |number|float64|weekly-number-of-dengue-and-dengue-haemorrhagic-fever-cases.csv|the number of dengue cases for that particular case type|
-|Dengue fever: (Singapore)|int64|google_trends.csv|the number of searches related to "dengue fever" in Singapore|
-|dengue symptoms: (Singapore)|int64|google_trends.csv|the number of searches related to "dengue symptoms" in Singapore|
-|rashes: (Singapore)|int64|google_trends.csv|the number of searches related to "rashes" in Singapore|
-|vomiting: (Singapore)|int64|google_trends.csv|the number of searches related to "vomiting" in Singapore|
-|eye pain: (Singapore)|int64|google_trends.csv|the number of searches related to "eye pain" in Singapore|
-|joint pain: (Singapore)|int64|google_trends.csv|the number of searches related to "joint pain" in Singapore|
-|fever: (Singapore)|int64|google_trends.csv|the number of searches related to "fever" in Singapore|
-|Wolbachia: (Singapore)|int64|google_trends.csv|the number of searches related to "Wolbachia" in Singapore|
-|headache: (Singapore)|int64|google_trends.csv|the number of searches related to "headache" in Singaporee|
-|nausea: (Singapore)|int64|google_trends.csv|the number of searches related to "nausea" in Singapore|
-|Fogging: (Singapore)|int64|google_trends.csv|the number of searches related to "fogging" in Singapore|
-|Insect repellent: (Singapore)|int64|google_trends.csv|the number of searches related to "insect repellent" in Singapore|
-|Mosquito: (Singapore)|int64|google_trends.csv|the number of searches related to "mosquito" in Singapore|
+|Dengue fever: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "dengue fever" in Singapore|
+|dengue symptoms: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "dengue symptoms" in Singapore|
+|rashes: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "rashes" in Singapore|
+|vomiting: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "vomiting" in Singapore|
+|eye pain: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "eye pain" in Singapore|
+|joint pain: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "joint pain" in Singapore|
+|fever: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "fever" in Singapore|
+|Wolbachia: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "Wolbachia" in Singapore|
+|headache: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "headache" in Singaporee|
+|nausea: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "nausea" in Singapore|
+|Fogging: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "fogging" in Singapore|
+|Insect repellent: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "insect repellent" in Singapore|
+|Mosquito: (Singapore)|int64|complete_google_trends.csv|the number of searches related to "mosquito" in Singapore|
 
 
 # Exploratory Data Analysis
